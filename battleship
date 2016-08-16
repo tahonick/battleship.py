@@ -15,6 +15,7 @@ Embed
  Code  Revisions 2  Stars 1
 Codecademy Battleship game
 Raw  battleship.py
+
 import random
 
 board = []
