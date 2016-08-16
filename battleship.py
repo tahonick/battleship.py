@@ -43,7 +43,7 @@ ship_col = random_col(board)
 
 #Everything from here on should go in your for loop!
 #Be sure to indent!
-max_guesses = 25
+max_guesses = 5
 for turn in range(max_guesses):
 	guess_row = input("Guess Row:")
 	guess_col = input("Guess Col:")
@@ -62,7 +62,7 @@ for turn in range(max_guesses):
 	  	if turn == (max_guesses-1):
 	  		print "Game over"
 	  # Print (turn + 1) here!
-	  print "This is your", (turn+1), "-eth guess"
+	  print "You have used", (turn), "guesses out of 5."
 	  print_board(board)
  @tahonick
   
